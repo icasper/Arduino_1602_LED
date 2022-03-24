@@ -1,0 +1,6 @@
+{
+    "configuration": "cpu=atmega2560",
+    "board": "arduino:avr:mega",
+    "port": "/dev/ttyACM1",
+    "sketch": "DFRobot_1602_LED/DFRobot_1602_LED.ino"
+}
