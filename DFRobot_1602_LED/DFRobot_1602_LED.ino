@@ -6,17 +6,8 @@
 
 LiquidCrystal_I2C lcd(0x20,16,2);  // set the LCD address to 0x27 for a 16 chars and 2 line display
 
-void setup()
+void setup(){
 
-
-
-
-
-
-
-
-
-{
   lcd.init();                      // initialize the lcd 
   lcd.init();
   // Print a message to the LCD.
@@ -26,7 +17,6 @@ void setup()
   lcd.setCursor(0,1);
   lcd.print("1602 I2C LCD");
 }
-
 
 void loop()
 {
